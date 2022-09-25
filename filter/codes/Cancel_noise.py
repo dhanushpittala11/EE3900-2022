@@ -2,7 +2,7 @@ import soundfile as sf
 from scipy import signal
 
 #read .wav file 
-input_signal,fs = sf.read('Sound_Noise.wav') 
+input_signal,fs = sf.read('filter_codes_Sound_Noise.wav') 
 
 #sampling frequency of Input signal
 sampl_freq=fs
